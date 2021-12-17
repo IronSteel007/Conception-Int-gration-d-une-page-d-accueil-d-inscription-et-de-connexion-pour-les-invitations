@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+/* ///////////////////// Loukili css ///////////////// */
 /* Mobile first */
 .a-wrapper {
   width: 100%;
@@ -15,7 +16,7 @@
 .a-group img {
   width: 100%;
 }
-
+/* Larger screen */
 @media only screen and (min-width: 550px) {
   .a-gallery {
     display: flex;
@@ -31,3 +32,125 @@
     width: 100%;
   }
 }
+/* //////////////// Loukili css end ////////////////// */
+/* start css noureddine */
+
+.n-mmaher {
+  padding-right: 91px;
+}
+.n-htree {
+  color: white;
+  text-align: center;
+}
+.n-section {
+  border-radius: 5px;
+  background-color: black;
+  display: inline-block;
+}
+.n-maher {
+  color: white;
+  width: 299px;
+  text-align: center;
+}
+p {
+  color: white;
+  text-align: center;
+}
+
+.n-button {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.n-firstbutton {
+  background-color: #fff;
+  border: none;
+  width: 156px;
+  height: 31px;
+}
+.n-secondbutton {
+  width: 154px;
+  height: 36px;
+  background: rgb(251, 123, 48);
+  background: linear-gradient(
+    90deg,
+    rgba(251, 123, 48, 1) 0%,
+    rgba(168, 49, 160, 1) 100%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  margin: 5px 0px;
+  border: none;
+}
+.n-svg {
+  width: 14px;
+  vertical-align: middle;
+}
+.n-lastillustration {
+  display: none;
+}
+/* css done for noureddine  */
+
+/* Code wassim */
+
+.w-footer {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 40px;
+}
+.w-para {
+  text-align: center;
+  color: white;
+}
+h1 {
+  font-weight: 400;
+  margin: 10px 0;
+  color: white;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+/* li§{
+      list-style: none;
+  } */
+li {
+  list-style: none;
+  color: white;
+}
+
+.w-droit-haut {
+  text-align: -webkit-center;
+  margin-bottom: 40px;
+}
+.w-droit-bas {
+  text-align: -webkit-center;
+  margin-top: 30px;
+}
+.w-gauche-bas {
+  text-align: -webkit-center;
+  margin-top: 30px;
+}
+.w-gauche-haut {
+  text-align: -webkit-center;
+  margin-bottom: 40px;
+}
+.w-iconnn {
+  margin-top: 50px;
+}
+footer {
+  background-color: black;
+}
+/* @media only screen and (min-width: 600px) {
+
+  hr{
+      display: none;
+  }
+  body{
+      background-color: blue;
+  }
+} */
+
+/* end code wassim */
