@@ -85,3 +85,66 @@ p {
     object-fit: cover;
   }
 }
+/* Code wassim */
+
+.w-footer{
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 40px;
+}
+.w-para{
+  text-align: center;
+  color: white;
+}
+h1 {
+  font-weight: 400;
+  margin: 10px 0;
+  color: white;
+  
+}
+  a{
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+  }
+  /* li§{
+      list-style: none;
+  } */
+  li{
+      list-style: none;
+      color: white;
+  }
+  
+  .w-droit-haut{
+      text-align: -webkit-center;
+      margin-bottom: 40px;
+  }
+  .w-droit-bas{
+      text-align: -webkit-center;
+      margin-top: 30px;
+  }
+  .w-gauche-bas{
+      text-align: -webkit-center;
+      margin-top: 30px;
+  }
+  .w-gauche-haut{
+      text-align: -webkit-center;
+      margin-bottom: 40px;
+  }
+  .w-iconnn{
+      margin-top: 50px;
+  }
+  footer{
+      background-color: black;
+  }
+  /* @media only screen and (min-width: 600px) {
+
+  hr{
+      display: none;
+  }
+  body{
+      background-color: blue;
+  }
+} */
+
+/* end code wassim */
