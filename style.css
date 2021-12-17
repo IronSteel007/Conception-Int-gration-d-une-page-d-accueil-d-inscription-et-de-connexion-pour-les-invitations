@@ -154,3 +154,136 @@ footer {
 } */
 
 /* end code wassim */
+
+
+
+/* /////// elboukhari code start here ////////////////////*/
+
+*{
+  text-decoration: none;
+}
+body {
+  background: linear-gradient( #fb7b30 , #a831a5 );
+}
+
+
+/* my job start from here */
+.m-menu{
+  
+border-radius: 30px;
+background-color: #fff;
+overflow: auto;
+white-space: nowrap;
+margin: 20px auto;
+width: 80%;
+
+
+
+}
+/* width */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 0px grey; 
+  border-radius: 5px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background:#ee6f43; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ee6f43; 
+}
+
+.m-menu img {
+  width: 90px;
+  height: 30px;
+
+}
+
+.m-menu a {
+  display: inline-block;
+  padding: 30px;
+}
+
+/* .m-menu a:hover {
+  background-color: rgb(255, 0, 0);
+} */
+
+.m-getcash{
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+
+  
+}
+.m-getcash img {
+  width: 30%;
+  display: none;/*will tchange in media */
+}
+
+.m-getmony  {
+  border-radius: 10px;
+  background-color: #ff7790;
+  padding: 15PX;
+  width: 80%; /*will tchange in media */
+  
+}
+
+.m-getmony h1 {
+  display: flex;
+  font-size: 30px;
+  justify-content: center;
+  
+}
+
+.m-getstart  {
+background: linear-gradient( #fb7b30 , #a831a5 );  border: none;
+color: rgba(102, 89, 89, 0.973);
+border-radius: 5px;
+padding: 5px 15px 5px 20px;
+width: 27vw; 
+max-width: 190px;
+padding: 3%;
+
+}
+
+.m-getmony button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+/* .m-getcash button  {
+
+  margin-left: 80px;
+} */
+
+@media (min-width: 800px){
+
+   .m-getcash img {
+       width: 26%;
+       display: inline-block;
+       margin-left: 2%; 
+       margin-right: 2%;
+  }
+
+  .m-getmony  {
+      
+      border-radius: 10px;
+      background-color: #ff7790;
+      padding: 15PX;
+      width: 30%;
+      
+  }  
+   }
+
+      /* elboukhari job is done  */
