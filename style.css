@@ -4,6 +4,65 @@
   box-sizing: border-box;
 }
 
+/* start css noureddine */
+
+.n-mmaher {
+  padding-right: 91px;
+}
+.n-htree {
+  color: white;
+  text-align: center;
+}
+.n-section {
+  border-radius: 5px;
+  background-color: black;
+  display: inline-block;
+}
+.n-maher {
+  color: white;
+  width: 299px;
+  text-align: center;
+}
+p {
+  color: white;
+  text-align: center;
+}
+
+.n-button {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.n-firstbutton {
+  background-color: #fff;
+  border: none;
+  width: 156px;
+  height: 31px;
+}
+.n-secondbutton {
+  width: 154px;
+  height: 36px;
+  background: rgb(251, 123, 48);
+  background: linear-gradient(
+    90deg,
+    rgba(251, 123, 48, 1) 0%,
+    rgba(168, 49, 160, 1) 100%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  margin: 5px 0px;
+  border: none;
+}
+.n-svg {
+  width: 14px;
+  vertical-align: middle;
+}
+.n-lastillustration {
+  display: none;
+}
+/* css done for noureddine  */
+
 /* css for Desktop */
 @media only screen and (min-width: 1080px) {
   .a-wrapper {
