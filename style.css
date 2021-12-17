@@ -4,6 +4,35 @@
   box-sizing: border-box;
 }
 
+/* ///////////////////// Loukili css ///////////////// */
+/* Mobile first */
+.a-wrapper {
+  width: 100%;
+}
+
+.a-wrapper a-group {
+  width: 100%;
+}
+.a-group img {
+  width: 100%;
+}
+/* Larger screen */
+@media only screen and (min-width: 550px) {
+  .a-gallery {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  .a-group {
+    width: 23%;
+  }
+
+  .a-gallery img {
+    width: 100%;
+  }
+}
+/* //////////////// Loukili css end ////////////////// */
 /* start css noureddine */
 
 .n-mmaher {
@@ -63,36 +92,14 @@ p {
 }
 /* css done for noureddine  */
 
-/* css for Desktop */
-@media only screen and (min-width: 1080px) {
-  .a-wrapper {
-    max-width: 75rem;
-    padding: 2rem;
-    margin: 0 auto;
-  }
-
-  /* Gallery formating with grid */
-  .a-gallery {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(4, 12, 5rem);
-  }
-
-  /* Image formating */
-  .a-gallery-image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-}
 /* Code wassim */
 
-.w-footer{
+.w-footer {
   display: flex;
   justify-content: space-evenly;
   margin-bottom: 40px;
 }
-.w-para{
+.w-para {
   text-align: center;
   color: white;
 }
@@ -100,44 +107,43 @@ h1 {
   font-weight: 400;
   margin: 10px 0;
   color: white;
-  
 }
-  a{
-      text-decoration: none;
-      color: white;
-      font-weight: bold;
-  }
-  /* li§{
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+/* li§{
       list-style: none;
   } */
-  li{
-      list-style: none;
-      color: white;
-  }
-  
-  .w-droit-haut{
-      text-align: -webkit-center;
-      margin-bottom: 40px;
-  }
-  .w-droit-bas{
-      text-align: -webkit-center;
-      margin-top: 30px;
-  }
-  .w-gauche-bas{
-      text-align: -webkit-center;
-      margin-top: 30px;
-  }
-  .w-gauche-haut{
-      text-align: -webkit-center;
-      margin-bottom: 40px;
-  }
-  .w-iconnn{
-      margin-top: 50px;
-  }
-  footer{
-      background-color: black;
-  }
-  /* @media only screen and (min-width: 600px) {
+li {
+  list-style: none;
+  color: white;
+}
+
+.w-droit-haut {
+  text-align: -webkit-center;
+  margin-bottom: 40px;
+}
+.w-droit-bas {
+  text-align: -webkit-center;
+  margin-top: 30px;
+}
+.w-gauche-bas {
+  text-align: -webkit-center;
+  margin-top: 30px;
+}
+.w-gauche-haut {
+  text-align: -webkit-center;
+  margin-bottom: 40px;
+}
+.w-iconnn {
+  margin-top: 50px;
+}
+footer {
+  background-color: black;
+}
+/* @media only screen and (min-width: 600px) {
 
   hr{
       display: none;
