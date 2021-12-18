@@ -22,16 +22,10 @@
 @media only screen and (min-width: 550px) {
   .a-wrapper {
     display: flex;
-    width: 100%;
     justify-content: space-around;
   }
-
   .a-group {
-    width: 23%;
-  }
-
-  img {
-    width: 100%;
+    margin-left: 1%;
   }
 }
 
