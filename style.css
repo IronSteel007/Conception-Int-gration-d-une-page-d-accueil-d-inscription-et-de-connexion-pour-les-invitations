@@ -8,6 +8,8 @@
 /* Mobile first */
 .a-wrapper {
   width: 100%;
+  display: flex;
+  justify-content: space-around;
 }
 
 .a-wrapper a-group {
@@ -32,6 +34,7 @@
     width: 100%;
   }
 }
+
 /* //////////////// Loukili css end ////////////////// */
 /* start css noureddine */
 
