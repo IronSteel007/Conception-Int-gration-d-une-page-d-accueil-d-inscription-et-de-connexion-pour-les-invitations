@@ -38,69 +38,131 @@
 
 /* start css noureddine */
 
-.n-mmaher {
-  padding-right: 91px;
-}
-
-.n-htree {
-  color: white;
-  text-align: center;
-}
-
-.n-section {
-  border-radius: 5px;
-  background-color: black;
-  display: inline-block;
-}
-
-.n-maher {
-  color: white;
-  width: 299px;
-  text-align: center;
-}
-
-p {
-  color: white;
-  text-align: center;
-}
-
-.n-button {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  align-items: center;
-}
-
-.n-firstbutton {
-  background-color: #fff;
-  border: none;
-  width: 156px;
-  height: 31px;
-}
-
-.n-secondbutton {
-  width: 154px;
-  height: 36px;
-  background: rgb(251, 123, 48);
-  background: linear-gradient(
-    90deg,
-    rgba(251, 123, 48, 1) 0%,
-    rgba(168, 49, 160, 1) 100%,
-    rgba(0, 0, 0, 1) 100%
-  );
-  margin: 5px 0px;
-  border: none;
-}
-
-.n-svg {
-  width: 14px;
-  vertical-align: middle;
-}
-
 .n-lastillustration {
   display: none;
 }
 
+.n-all {
+  background-color: black;
+  border-radius: 5px;
+  display: list-item;
+  width: 81%;
+  height: 296px;
+  margin: 10px auto;
+}
+.n-all h3 {
+  color: white;
+  font-family: poppins, Arial, Helvetica, sans-serif;
+  font-size: 19px;
+  text-align: center;
+  padding-top: 13px;
+}
+.n-firstp {
+  color: white;
+  font-family: poppins, Arial, Helvetica, sans-serif;
+  padding-left: 25px;
+  padding-top: 25px;
+}
+.n-secondp {
+  color: white;
+  padding-left: 25px;
+}
+.n-firstbutton img {
+  width: 35px;
+}
+.n-firstbutton {
+  display: flex;
+  height: 44px;
+  background-color: white;
+  width: 174px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.n-signin {
+  padding-top: 15px;
+}
+.n-secondbutton {
+  width: 163px;
+  height: 49px;
+  color: white;
+  border-radius: 5px;
+  margin-top: 7px;
+  background: linear-gradient(
+    90deg,
+    rgba(251, 123, 48, 1) 0%,
+    rgba(168, 49, 165, 1) 100%
+  );
+  border: none;
+  font-weight: bold;
+}
+.n-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* START MEDIAQUERRY */
+
+@media (min-width: 600px) {
+  /* I HAVE A PROBLEME WHIT THIS SVG */
+
+  /* .n-lastillustration {
+    display: inline;
+    float: right;
+    transform: translateY(-59%);
+  } */
+
+  .n-all {
+    width: 86%;
+    margin-top: 67px;
+    height: 248px;
+  }
+
+  .n-all h3 {
+    text-align: left;
+    padding-top: 13px;
+    padding-left: 27px;
+    font-size: XX-LARGE;
+  }
+
+  .n-lastillustration {
+    float: right;
+    transform: translateY(-59%);
+  }
+
+  .n-firstbutton {
+    display: flex;
+    height: 44px;
+    background-color: white;
+    width: 174px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-left: 26px;
+  }
+
+  .n-secondbutton {
+    width: 163px;
+    height: 49px;
+    color: white;
+    border-radius: 5px;
+    margin-top: -4px;
+    background: linear-gradient(
+      90deg,
+      rgba(251, 123, 48, 1) 0%,
+      rgba(168, 49, 165, 1) 100%
+    );
+    border: none;
+    font-weight: bold;
+    margin-left: 10px;
+  }
+
+  .n-buttons {
+    flex-direction: row;
+  }
+}
 /* css done for noureddine  */
 
 /* Code wassim */
