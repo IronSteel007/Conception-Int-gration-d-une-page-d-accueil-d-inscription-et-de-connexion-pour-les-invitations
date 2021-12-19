@@ -328,6 +328,7 @@ header {
 .y_headerdiv {
     display: flex;
     justify-content: space-between;
+    margin: 20px;
 }
 
 .y_log {
@@ -389,6 +390,19 @@ header {
     display: none;
 }
 
+.y_login_btn {
+    margin: auto;
+    height: 30px;
+    background: rgba(251, 123, 48, 1);
+}
+
+.y_signup_btn {
+    height: 30px;
+    margin: auto;
+    color: rgb(255, 255, 255);
+    background: black;
+}
+
 @media screen and (min-width: 650px) {
     .y_styles_hamburger__W6Z5g {
         display: none;
@@ -414,6 +428,9 @@ header {
         display: flex;
         justify-content: space-between;
         margin: 20px;
+    }
+    .y_li_inv {
+        color: rgb(0, 0, 0);
     }
     .y_div_Referral {
         width: 100%;
@@ -459,12 +476,18 @@ header {
     .y_login {
         margin: auto;
     }
-    .y_login_btn {}
+    .y_login_btn {
+        margin: auto;
+        height: 30px;
+    }
     .y_signup {
         margin: auto;
     }
     .y_signup_btn {
+        height: 30px;
         margin: auto;
+        color: rgb(255, 255, 255);
+        background: black;
     }
 }
 
