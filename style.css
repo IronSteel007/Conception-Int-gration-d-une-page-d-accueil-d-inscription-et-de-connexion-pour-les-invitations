@@ -338,56 +338,8 @@ header {
     margin-top: 20px;
 }
 
-.sidebar {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: rgb(0, 0, 0);
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
-}
-
-.sidebar a {
-    padding: 8px 8px 8px 16px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #ffffff;
-    display: block;
-    transition: 0.3s;
-}
-
-.sidebar a:hover {
-    color: #f1f1f1;
-}
-
-.sidebar .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-}
-
-.openbtn {
-    font-size: 20px;
-    cursor: pointer;
-    background-color: #111;
-    color: white;
-    padding: 10px 15px;
-    border: none;
-}
-
-.openbtn:hover {
-    background-color: #444;
-}
-
-#main {
-    transition: margin-left .5s;
-    padding: 16px;
+.y_styles_hamburger__W6Z5g {
+    background-color: whitesmoke;
 }
 
 .y_div_Referral {
@@ -400,10 +352,12 @@ header {
 
 .y_reflef_h3 {
     color: white;
+    margin: 18px;
 }
 
 .y_reflef_p {
     color: white;
+    margin: 18px;
 }
 
 .y_imag {
@@ -416,11 +370,11 @@ header {
 }
 
 .y_but {
-    width: 154px;
-    height: 36px;
+    width: 200px;
+    height: 43px;
     background: rgb(251, 123, 48);
     background: linear-gradient( 90deg, rgba(251, 123, 48, 1) 0%, rgba(168, 49, 160, 1) 100%, rgba(0, 0, 0, 1) 100%);
-    margin: 5px 0px;
+    margin-left: 15px;
     border: none;
 }
 
@@ -433,12 +387,39 @@ header {
     display: none;
 }
 
+.y_nav1 {
+    display: none;
+}
+
+.y_left {
+    display: none;
+}
+
 @media screen and (min-width: 650px) {
-    .sidebar {
-        padding-top: 15px;
+    .y_styles_hamburger__W6Z5g {
+        display: none;
+        background-color: whitesmoke;
     }
-    .sidebar a {
-        font-size: 18px;
+    .y_nav1 {
+        display: flex;
+    }
+    .y_log {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .y_left {
+        display: flex
+    }
+    .y_input {
+        margin: auto;
+    }
+    .y_nav {
+        margin: 20px;
+    }
+    .y_nav1_li {
+        display: flex;
+        justify-content: space-between;
+        margin: 20px;
     }
     .y_div_Referral {
         width: 100%;
@@ -446,6 +427,10 @@ header {
         background-color: black;
         display: flex;
         flex-direction: column;
+        padding-bottom: 150px;
+        padding-top: 150px;
+        position: relative;
+        margin-bottom: 124px
     }
     .y_div_free {
         display: flex;
@@ -456,6 +441,11 @@ header {
     }
     .y_imag {
         display: grid;
+        position: absolute;
+        bottom: -110px;
+        right: 24px;
+        width: 651px;
+        height: 517px;
     }
     .y_reflef_p {
         color: white;
@@ -466,6 +456,20 @@ header {
     .y_conbla {
         display: flex;
     }
+    .y_log {
+        width: 100px;
+        display: flex;
+        justify-content: flex-end;
+        margin: 30px;
+    }
+    .y_login {
+        margin: auto;
+    }
+    .y_login_btn {}
+    .y_signup {
+        margin: auto;
+    }
+    .y_signup_btn {}
 }
 
 
