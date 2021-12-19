@@ -463,7 +463,9 @@ header {
     .y_signup {
         margin: auto;
     }
-    .y_signup_btn {}
+    .y_signup_btn {
+        margin: auto;
+    }
 }
 
 
