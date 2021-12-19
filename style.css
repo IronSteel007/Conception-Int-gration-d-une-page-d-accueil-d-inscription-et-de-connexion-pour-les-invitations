@@ -263,6 +263,9 @@ body {
   font-size: 30px;
   justify-content: center;
 }
+.m-getmony p {
+  font-family:'Poppins', 'Franklin Gothic Me', Arial;
+}
 
 .m-getstart {
   background: linear-gradient(#fb7b30, #a831a5);
@@ -287,6 +290,16 @@ body {
 } */
 
 @media (min-width: 800px) {
+
+  body{
+    background: none;
+  }
+
+  .m-menu {
+    display: flex;
+    justify-content:center
+  }
+  
   .m-getcash img {
     width: 26%;
     display: inline-block;
@@ -295,9 +308,19 @@ body {
   }
   .m-getmony {
     border-radius: 10px;
-    background-color: #ff7790;
+    background: none;
     padding: 15px;
     width: 30%;
+  }
+/* thats what i added button position & bgd none */
+  .m-getmony h1 {
+    color: #111;
+  }
+  .m-getmony p {
+    color: #111;
+  }
+  .m-grow {
+    margin-bottom: 10%;
   }
 }
 
