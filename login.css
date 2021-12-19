@@ -1,0 +1,112 @@
+* {
+  margin: o;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(rgba(251, 123, 48, 0.6), rgba(168, 49, 165, 0.6));
+  background-attachment: fixed;
+}
+
+@font-face {
+  font-family: poppins;
+  src: url(fonts/Poppins-Light.ttf);
+}
+
+.a-container {
+  font-family: poppins, sans-serif;
+  text-align: center;
+  padding: 7%;
+  text-align: -webkit-center;
+}
+
+.a-back-svg {
+  text-align: left;
+}
+
+.a-anim-svg {
+  display: none;
+}
+
+.a-intro {
+  display: none;
+}
+.a-welcome {
+  margin-top: 10%;
+}
+
+.a-form {
+  text-align: left;
+  margin-top: 30px;
+  max-width: 500px;
+}
+
+.a-form input {
+  width: 100%;
+  height: 3em;
+}
+.a-form .a-form-item {
+  margin-top: 1.5em;
+}
+
+.a-form-item input {
+  margin-top: 10px;
+  border: 3;
+}
+
+.a-form input[type="submit"] {
+  background-color: #ff7790;
+  border-radius: 50px;
+  height: 3em;
+  font-size: 20px;
+  color: white;
+}
+
+.a-signup p {
+  display: inline;
+}
+
+.a-signup p::after {
+  content: "\2003";
+}
+
+.a-signup a {
+  color: white;
+  text-decoration: none;
+}
+
+@media (min-width: 1080px) {
+  .a-back-svg {
+    display: none;
+  }
+  .a-anim-svg {
+    display: block;
+  }
+  .a-intro {
+    display: block;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: left;
+    max-width: 600px;
+  }
+
+  .a-desk-add {
+    float: left;
+    width: 45%;
+  }
+  .a-form-container {
+    float: right;
+    background-color: rgba(174, 233, 235, 0.8);
+    padding: 23px;
+    border-radius: 15px;
+    padding: 5%;
+  }
+  .a-form input[type="submit"] {
+    background-color: black;
+    border: none;
+  }
+}

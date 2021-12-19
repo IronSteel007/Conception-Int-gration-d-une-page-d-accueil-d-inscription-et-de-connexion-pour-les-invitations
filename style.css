@@ -1,175 +1,169 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-
 /* ///////////////////// Loukili css ///////////////// */
-
 
 /* Mobile first */
 
 .a-wrapper {
-    width: 100%;
+  padding: 3%;
+  width: 100%;
+  justify-content: space-around;
 }
 
 .a-wrapper a-group {
-    width: 100%;
+  width: 100%;
 }
 
 .a-group img {
-    width: 100%;
+  width: 100%;
 }
-
 
 /* Larger screen */
 
 @media only screen and (min-width: 550px) {
-    .a-gallery {
-        display: flex;
-        width: 100%;
-        justify-content: space-around;
-    }
-    .a-group {
-        width: 23%;
-    }
-    .a-gallery img {
-        width: 100%;
-    }
+  .a-wrapper {
+    display: flex;
+    justify-content: space-around;
+  }
+  .a-group {
+    margin-left: 1%;
+  }
 }
 
-
 /* //////////////// Loukili css end ////////////////// */
-
 
 /* start css noureddine */
 
 .n-mmaher {
-    padding-right: 91px;
+  padding-right: 91px;
 }
 
 .n-htree {
-    color: white;
-    text-align: center;
+  color: white;
+  text-align: center;
 }
 
 .n-section {
-    border-radius: 5px;
-    background-color: black;
-    display: inline-block;
+  border-radius: 5px;
+  background-color: black;
+  display: inline-block;
 }
 
 .n-maher {
-    color: white;
-    width: 299px;
-    text-align: center;
+  color: white;
+  width: 299px;
+  text-align: center;
 }
 
 p {
-    color: white;
-    text-align: center;
+  color: white;
+  text-align: center;
 }
 
 .n-button {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
 }
 
 .n-firstbutton {
-    background-color: #fff;
-    border: none;
-    width: 156px;
-    height: 31px;
+  background-color: #fff;
+  border: none;
+  width: 156px;
+  height: 31px;
 }
 
 .n-secondbutton {
-    width: 154px;
-    height: 36px;
-    background: rgb(251, 123, 48);
-    background: linear-gradient( 90deg, rgba(251, 123, 48, 1) 0%, rgba(168, 49, 160, 1) 100%, rgba(0, 0, 0, 1) 100%);
-    margin: 5px 0px;
-    border: none;
+  width: 154px;
+  height: 36px;
+  background: rgb(251, 123, 48);
+  background: linear-gradient(
+    90deg,
+    rgba(251, 123, 48, 1) 0%,
+    rgba(168, 49, 160, 1) 100%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  margin: 5px 0px;
+  border: none;
 }
 
 .n-svg {
-    width: 14px;
-    vertical-align: middle;
+  width: 14px;
+  vertical-align: middle;
 }
 
 .n-lastillustration {
-    display: none;
+  display: none;
 }
 
-
 /* css done for noureddine  */
-
 
 /* Code wassim */
 
 .w-footer {
-    display: flex;
-    justify-content: space-evenly;
-    margin-bottom: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 40px;
 }
 
 .w-para {
-    text-align: center;
-    color: white;
+  text-align: center;
+  color: white;
 }
 
 h1 {
-    font-weight: 400;
-    margin: 10px 0;
-    color: white;
+  font-weight: 400;
+  margin: 10px 0;
+  color: white;
 }
 
 a {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
 }
-
 
 /* li§{
       list-style: none;
   } */
 
 li {
-    list-style: none;
-    color: white;
+  list-style: none;
+  color: white;
 }
 
 .w-droit-haut {
-    text-align: -webkit-center;
-    margin-bottom: 40px;
+  text-align: -webkit-center;
+  margin-bottom: 40px;
 }
 
 .w-droit-bas {
-    text-align: -webkit-center;
-    margin-top: 30px;
+  text-align: -webkit-center;
+  margin-top: 30px;
 }
 
 .w-gauche-bas {
-    text-align: -webkit-center;
-    margin-top: 30px;
+  text-align: -webkit-center;
+  margin-top: 30px;
 }
 
 .w-gauche-haut {
-    text-align: -webkit-center;
-    margin-bottom: 40px;
+  text-align: -webkit-center;
+  margin-bottom: 40px;
 }
 
 .w-iconnn {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 footer {
-    background-color: black;
+  background-color: black;
 }
-
 
 /* @media only screen and (min-width: 600px) {
 
@@ -181,120 +175,111 @@ footer {
   }
 } */
 
-
 /* end code wassim */
-
 
 /* /////// elboukhari code start here ////////////////////*/
 
 * {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 body {
-    background: linear-gradient( #fb7b30, #a831a5);
+  background: linear-gradient(#fb7b30, #a831a5);
 }
-
 
 /* my job start from here */
 
 .m-menu {
-    border-radius: 30px;
-    background-color: #fff;
-    overflow: auto;
-    white-space: nowrap;
-    margin: 20px auto;
-    width: 80%;
+  border-radius: 30px;
+  background-color: #fff;
+  overflow: auto;
+  white-space: nowrap;
+  margin: 20px auto;
+  width: 80%;
 }
-
 
 /* width */
 
 ::-webkit-scrollbar {
-    width: 12px;
+  width: 12px;
 }
-
 
 /* Track */
 
 ::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 0px grey;
-    border-radius: 5px;
+  box-shadow: inset 0 0 0px grey;
+  border-radius: 5px;
 }
-
 
 /* Handle */
 
 ::-webkit-scrollbar-thumb {
-    background: #ee6f43;
-    border-radius: 10px;
+  background: #ee6f43;
+  border-radius: 10px;
 }
-
 
 /* Handle on hover */
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #ee6f43;
+  background: #ee6f43;
 }
 
 .m-menu img {
-    width: 90px;
-    height: 30px;
+  width: 90px;
+  height: 30px;
 }
 
 .m-menu a {
-    display: inline-block;
-    padding: 30px;
+  display: inline-block;
+  padding: 30px;
 }
-
 
 /* .m-menu a:hover {
   background-color: rgb(255, 0, 0);
 } */
 
 .m-getcash {
-    display: flex;
-    justify-content: space-between;
-    justify-content: center;
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
 }
 
 .m-getcash img {
-    width: 30%;
-    display: none;
-    /*will tchange in media */
+  width: 30%;
+  display: none;
+  /*will tchange in media */
 }
 
 .m-getmony {
-    border-radius: 10px;
-    background-color: #ff7790;
-    padding: 15PX;
-    width: 80%;
-    /*will tchange in media */
+  border-radius: 10px;
+  background-color: #ff7790;
+  padding: 15px;
+  width: 80%;
+  /*will tchange in media */
 }
 
 .m-getmony h1 {
-    display: flex;
-    font-size: 30px;
-    justify-content: center;
+  display: flex;
+  font-size: 30px;
+  justify-content: center;
 }
 
 .m-getstart {
-    background: linear-gradient( #fb7b30, #a831a5);
-    border: none;
-    color: rgba(102, 89, 89, 0.973);
-    border-radius: 5px;
-    padding: 5px 15px 5px 20px;
-    width: 27vw;
-    max-width: 190px;
-    padding: 3%;
+  background: linear-gradient(#fb7b30, #a831a5);
+  border: none;
+  color: rgba(102, 89, 89, 0.973);
+  border-radius: 5px;
+  padding: 5px 15px 5px 20px;
+  width: 27vw;
+  max-width: 190px;
+  padding: 3%;
 }
 
 .m-getmony button {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
-
 
 /* .m-getcash button  {
 
@@ -302,55 +287,107 @@ body {
 } */
 
 @media (min-width: 800px) {
-    .m-getcash img {
-        width: 26%;
-        display: inline-block;
-        margin-left: 2%;
-        margin-right: 2%;
-    }
-    .m-getmony {
-        border-radius: 10px;
-        background-color: #ff7790;
-        padding: 15PX;
-        width: 30%;
-    }
+  .m-getcash img {
+    width: 26%;
+    display: inline-block;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .m-getmony {
+    border-radius: 10px;
+    background-color: #ff7790;
+    padding: 15px;
+    width: 30%;
+  }
 }
 
-
 /* elboukhari job is done  */
-
 
 /* yahya css header */
 
 header {
-    display: flex;
-    flex-direction: column
+  display: flex;
+  flex-direction: column;
 }
 
 .y_headerdiv {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .y_log {
-    display: flex;
-    justify-content: flex-end;
-    margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
 }
 
+<<<<<<< HEAD
 .y_styles_hamburger__W6Z5g {
     background-color: whitesmoke;
+=======
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0, 0, 0);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #ffffff;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+#main {
+  transition: margin-left 0.5s;
+  padding: 16px;
+>>>>>>> 39678fd311b51c5a63220f8009897528ba350425
 }
 
 .y_div_Referral {
-    width: 80%;
-    text-align: -webkit-center;
-    background-color: black;
-    align-self: center;
-    padding: 12px;
+  width: 80%;
+  text-align: -webkit-center;
+  background-color: black;
+  align-self: center;
+  padding: 12px;
 }
 
 .y_reflef_h3 {
+<<<<<<< HEAD
     color: white;
     margin: 18px;
 }
@@ -358,33 +395,54 @@ header {
 .y_reflef_p {
     color: white;
     margin: 18px;
+=======
+  color: white;
+}
+
+.y_reflef_p {
+  color: white;
+>>>>>>> 39678fd311b51c5a63220f8009897528ba350425
 }
 
 .y_imag {
-    display: none;
+  display: none;
 }
 
 .y_button {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .y_but {
+<<<<<<< HEAD
     width: 200px;
     height: 43px;
     background: rgb(251, 123, 48);
     background: linear-gradient( 90deg, rgba(251, 123, 48, 1) 0%, rgba(168, 49, 160, 1) 100%, rgba(0, 0, 0, 1) 100%);
     margin-left: 15px;
     border: none;
+=======
+  width: 154px;
+  height: 36px;
+  background: rgb(251, 123, 48);
+  background: linear-gradient(
+    90deg,
+    rgba(251, 123, 48, 1) 0%,
+    rgba(168, 49, 160, 1) 100%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  margin: 5px 0px;
+  border: none;
+>>>>>>> 39678fd311b51c5a63220f8009897528ba350425
 }
 
 .y_div_free {
-    display: flex;
-    justify-content: center
+  display: flex;
+  justify-content: center;
 }
 
 .y_promocode {
-    display: none;
+  display: none;
 }
 
 .y_nav1 {
@@ -396,6 +454,7 @@ header {
 }
 
 @media screen and (min-width: 650px) {
+<<<<<<< HEAD
     .y_styles_hamburger__W6Z5g {
         display: none;
         background-color: whitesmoke;
@@ -474,3 +533,40 @@ header {
 
 
 /* yahya css header */
+=======
+  .sidebar {
+    padding-top: 15px;
+  }
+  .sidebar a {
+    font-size: 18px;
+  }
+  .y_div_Referral {
+    width: 100%;
+    text-align: left;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+  }
+  .y_div_free {
+    display: flex;
+    justify-content: space-between;
+  }
+  .y_promocode {
+    display: flex;
+  }
+  .y_imag {
+    display: grid;
+  }
+  .y_reflef_p {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+  }
+  .y_conbla {
+    display: flex;
+  }
+}
+
+/* yahya css header */
+>>>>>>> 39678fd311b51c5a63220f8009897528ba350425
