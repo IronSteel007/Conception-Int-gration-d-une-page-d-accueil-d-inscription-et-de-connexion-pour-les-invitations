@@ -43,6 +43,39 @@
 
 /* start css noureddine */
 
+<<<<<<< HEAD
+.n-lastillustration {
+  display: none;
+}
+
+.n-all {
+  background-color: black;
+  border-radius: 5px;
+  display: list-item;
+  width: 81%;
+  height: 296px;
+  margin: 10px auto;
+}
+.n-all h3 {
+  color: white;
+  font-family: poppins, Arial, Helvetica, sans-serif;
+  font-size: 19px;
+  text-align: center;
+  padding-top: 13px;
+}
+.n-firstp {
+  color: white;
+  font-family: poppins, Arial, Helvetica, sans-serif;
+  padding-left: 25px;
+  padding-top: 25px;
+}
+.n-secondp {
+  color: white;
+  padding-left: 25px;
+}
+.n-firstbutton img {
+  width: 35px;
+=======
 .n-mmaher {
     padding-right: 91px;
 }
@@ -74,16 +107,110 @@ p {
     flex-direction: column;
     width: 100%;
     align-items: center;
+>>>>>>> main
 }
-
 .n-firstbutton {
+<<<<<<< HEAD
+  display: flex;
+  height: 44px;
+  background-color: white;
+  width: 174px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.n-signin {
+  padding-top: 15px;
+=======
     background-color: #fff;
     border: none;
     width: 156px;
     height: 31px;
+>>>>>>> main
+}
+.n-secondbutton {
+<<<<<<< HEAD
+  width: 163px;
+  height: 49px;
+  color: white;
+  border-radius: 5px;
+  margin-top: 7px;
+  background: linear-gradient(
+    90deg,
+    rgba(251, 123, 48, 1) 0%,
+    rgba(168, 49, 165, 1) 100%
+  );
+  border: none;
+  font-weight: bold;
+}
+.n-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
 }
 
-.n-secondbutton {
+/* START MEDIAQUERRY */
+
+@media (min-width: 600px) {
+  /* I HAVE A PROBLEME WHIT THIS SVG */
+
+  /* .n-lastillustration {
+    display: inline;
+    float: right;
+    transform: translateY(-59%);
+  } */
+
+  .n-all {
+    width: 86%;
+    margin-top: 67px;
+    height: 248px;
+  }
+
+  .n-all h3 {
+    text-align: left;
+    padding-top: 13px;
+    padding-left: 27px;
+    font-size: XX-LARGE;
+  }
+
+  .n-lastillustration {
+    float: right;
+    transform: translateY(-59%);
+  }
+
+  .n-firstbutton {
+    display: flex;
+    height: 44px;
+    background-color: white;
+    width: 174px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-left: 26px;
+  }
+
+  .n-secondbutton {
+    width: 163px;
+    height: 49px;
+    color: white;
+    border-radius: 5px;
+    margin-top: -4px;
+    background: linear-gradient(
+      90deg,
+      rgba(251, 123, 48, 1) 0%,
+      rgba(168, 49, 165, 1) 100%
+    );
+    border: none;
+    font-weight: bold;
+    margin-left: 10px;
+  }
+
+  .n-buttons {
+    flex-direction: row;
+  }
+}
+=======
     width: 154px;
     height: 36px;
     background: rgb(251, 123, 48);
@@ -102,6 +229,7 @@ p {
 }
 
 
+>>>>>>> main
 /* css done for noureddine  */
 
 
