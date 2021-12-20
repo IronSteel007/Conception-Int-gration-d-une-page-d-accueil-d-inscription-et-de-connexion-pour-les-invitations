@@ -27,7 +27,6 @@
 @media only screen and (min-width: 550px) {
   .a-wrapper {
     display: block;
-    justify-content: space-around;
   }
 
   .row-tablet {
@@ -39,11 +38,12 @@
     margin-left: 1%;
   }
 }
-/* More large screens */
+/* More larger screens */
 @media only screen and (min-width: 920px) {
   .a-wrapper {
     display: flex;
     justify-content: space-around;
+    max-width: 1640px;
   }
 
   .a-group {
@@ -489,9 +489,7 @@ header {
   margin: auto;
   color: rgb(255, 255, 255);
   background: black;
-<<<<<<< HEAD
 }
-
 @media screen and (min-width: 650px) {
   .y_styles_hamburger__W6Z5g {
     display: none;
@@ -522,15 +520,17 @@ header {
     color: rgb(0, 0, 0);
   }
   .y_div_Referral {
-    width: 100%;
+    width: 88%;
     text-align: left;
     background-color: black;
     display: flex;
     flex-direction: column;
-    padding-bottom: 150px;
-    padding-top: 150px;
+    padding-top: 37px;
+    padding-bottom: 80px;
     position: relative;
     margin-bottom: 124px;
+    position: relative;
+    margin-bottom: 84px;
   }
   .y_div_free {
     display: flex;
@@ -542,10 +542,10 @@ header {
   .y_imag {
     display: grid;
     position: absolute;
-    bottom: -110px;
-    right: 24px;
-    width: 651px;
-    height: 517px;
+    bottom: -76px;
+    right: 4px;
+    width: 451px;
+    height: 362px;
   }
   .y_reflef_p {
     color: white;
@@ -579,113 +579,16 @@ header {
     color: rgb(255, 255, 255);
     background: black;
   }
+  #text {
+    border: none;
+    font-size: 13px;
+    font-weight: bold;
+  }
+  #texte {
+    border: none;
+    font-size: 13px;
+    font-weight: bold;
+  }
 }
 
 /* yahya css header */
-=======
-}
-@media screen and (min-width: 650px) {
-    .y_styles_hamburger__W6Z5g {
-        display: none;
-        background-color: whitesmoke;
-    }
-    .y_nav1 {
-        display: flex;
-    }
-    .y_log {
-        display: flex;
-        justify-content: flex-end;
-    }
-    .y_left {
-        display: flex
-    }
-    .y_input {
-        margin: auto;
-    }
-    .y_nav {
-        margin: 20px;
-    }
-    .y_nav1_li {
-        display: flex;
-        justify-content: space-between;
-        margin: 20px;
-    }
-    .y_li_inv {
-        color: rgb(0, 0, 0);
-    }
-    .y_div_Referral {
-        width: 88%;
-        text-align: left;
-        background-color: black;
-        display: flex;
-        flex-direction: column;
-        padding-top: 37px;
-        padding-bottom: 80px;
-        position: relative;
-        margin-bottom: 124px;
-        position: relative;
-        margin-bottom: 84px;
-    }
-    .y_div_free {
-        display: flex;
-        justify-content: space-between;
-    }
-    .y_promocode {
-        display: flex;
-    }
-    .y_imag {
-        display: grid;
-        position: absolute;
-        bottom: -76px;
-        right: 4px;
-        width: 451px;
-        height: 362px;
-    }
-    .y_reflef_p {
-        color: white;
-        display: flex;
-        flex-direction: column;
-        align-items: baseline;
-    }
-    .y_conbla {
-        display: flex;
-    }
-    .y_log {
-        width: 100px;
-        display: flex;
-        justify-content: flex-end;
-        margin: 30px;
-    }
-    .y_login {
-        margin: auto;
-    }
-    .y_login_btn {
-        margin: auto;
-        height: 30px;
-        background: white;
-    }
-    .y_signup {
-        margin: auto;
-    }
-    .y_signup_btn {
-        height: 30px;
-        margin: auto;
-        color: rgb(255, 255, 255);
-        background: black;
-    }
-    #text {
-        border: none;
-        font-size: 13px;
-        font-weight: bold;
-    }
-    #texte {
-        border: none;
-        font-size: 13px;
-        font-weight: bold;
-    }
-}
-
-
-/* yahya css header */
-
->>>>>>> 56f65a14eed4fe383c832f925fa825184dc06c65
