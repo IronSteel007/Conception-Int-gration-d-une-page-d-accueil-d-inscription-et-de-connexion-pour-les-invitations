@@ -22,13 +22,30 @@
   width: 100%;
 }
 
-/* Larger screen */
+/* tablet screen*/
 
 @media only screen and (min-width: 550px) {
+  .a-wrapper {
+    display: block;
+    justify-content: space-around;
+  }
+
+  .row-tablet {
+    display: flex;
+    row-gap: 1em;
+  }
+
+  .a-group {
+    margin-left: 1%;
+  }
+}
+/* More large screens */
+@media only screen and (min-width: 920px) {
   .a-wrapper {
     display: flex;
     justify-content: space-around;
   }
+
   .a-group {
     margin-left: 1%;
   }
@@ -91,8 +108,10 @@
   background: linear-gradient(
     90deg,
     rgba(251, 123, 48, 1) 0%,
-    rgba(168, 49, 165, 1) 100%
+    rgba(168, 49, 160, 1) 100%,
+    rgba(0, 0, 0, 1) 100%
   );
+  margin: 5px 0px;
   border: none;
   font-weight: bold;
 }
@@ -470,6 +489,7 @@ header {
   margin: auto;
   color: rgb(255, 255, 255);
   background: black;
+<<<<<<< HEAD
 }
 
 @media screen and (min-width: 650px) {
@@ -562,3 +582,110 @@ header {
 }
 
 /* yahya css header */
+=======
+}
+@media screen and (min-width: 650px) {
+    .y_styles_hamburger__W6Z5g {
+        display: none;
+        background-color: whitesmoke;
+    }
+    .y_nav1 {
+        display: flex;
+    }
+    .y_log {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .y_left {
+        display: flex
+    }
+    .y_input {
+        margin: auto;
+    }
+    .y_nav {
+        margin: 20px;
+    }
+    .y_nav1_li {
+        display: flex;
+        justify-content: space-between;
+        margin: 20px;
+    }
+    .y_li_inv {
+        color: rgb(0, 0, 0);
+    }
+    .y_div_Referral {
+        width: 88%;
+        text-align: left;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        padding-top: 37px;
+        padding-bottom: 80px;
+        position: relative;
+        margin-bottom: 124px;
+        position: relative;
+        margin-bottom: 84px;
+    }
+    .y_div_free {
+        display: flex;
+        justify-content: space-between;
+    }
+    .y_promocode {
+        display: flex;
+    }
+    .y_imag {
+        display: grid;
+        position: absolute;
+        bottom: -76px;
+        right: 4px;
+        width: 451px;
+        height: 362px;
+    }
+    .y_reflef_p {
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+    }
+    .y_conbla {
+        display: flex;
+    }
+    .y_log {
+        width: 100px;
+        display: flex;
+        justify-content: flex-end;
+        margin: 30px;
+    }
+    .y_login {
+        margin: auto;
+    }
+    .y_login_btn {
+        margin: auto;
+        height: 30px;
+        background: white;
+    }
+    .y_signup {
+        margin: auto;
+    }
+    .y_signup_btn {
+        height: 30px;
+        margin: auto;
+        color: rgb(255, 255, 255);
+        background: black;
+    }
+    #text {
+        border: none;
+        font-size: 13px;
+        font-weight: bold;
+    }
+    #texte {
+        border: none;
+        font-size: 13px;
+        font-weight: bold;
+    }
+}
+
+
+/* yahya css header */
+
+>>>>>>> 56f65a14eed4fe383c832f925fa825184dc06c65
