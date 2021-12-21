@@ -280,6 +280,16 @@ footer {
 
 /* elboukhari start from here */
 
+* {
+  text-decoration: none;
+}
+
+body {
+  background: linear-gradient(#fb7b30, #a831a5);
+}
+
+/* my job start from here */
+
 .m-menu {
   border-radius: 30px;
   background-color: #fff;
@@ -324,6 +334,10 @@ footer {
   display: inline-block;
   padding: 30px;
 }
+
+/* .m-menu a:hover {
+  background-color: rgb(255, 0, 0);
+} */
 
 .m-getcash {
   display: flex;
@@ -372,13 +386,19 @@ footer {
   margin-right: auto;
 }
 
+/* .m-getcash button  {
+
+  margin-left: 80px;
+} */
+
 @media (min-width: 800px) {
   body {
     background: none;
   }
   .m-menu {
     display: flex;
-    justify-content: center;
+    justify-content:space-between;
+    width: 100%;
   }
   .m-getcash img {
     width: 26%;
