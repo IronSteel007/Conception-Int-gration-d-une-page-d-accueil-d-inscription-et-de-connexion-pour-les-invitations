@@ -114,6 +114,7 @@ p {
 .w-para {
   text-align: center;
   color: white;
+  /*font-size: poppins;*/
 }
 
 h1 {
@@ -454,6 +455,37 @@ header {
   .y_conbla {
     display: flex;
   }
+
+  .w-droit{
+    display: flex;
+  }
+  .w-gauche{
+    display: flex;
+  }
+.w-droit-bas , .w-gauche-bas{
+  margin-top: 0px;
 }
+hr{
+  display: none;
+}
+.w-footer{
+  flex-wrap: wrap;
+
+ 
+  JUSTIFY-CONTENT: END;
+}
+.w-para  p{
+  TEXT-ALIGN: -webkit-left;
+}
+.w-para{
+  TEXT-ALIGN: -webkit-left;
+}
+.w-para{
+  WIDTH: 50%;
+    POSITION: RELATIVE;
+    BOTTOM: 170PX;
+
+}
+
 
 /* yahya css header */
