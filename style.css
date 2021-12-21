@@ -59,50 +59,56 @@ body {
 
 /*noureddine start from here */
 
-.n-mmaher {
-  padding-right: 91px;
+.n-illustration {
+  display: none;
 }
 
-.n-htree {
-  color: white;
-  text-align: center;
-}
-
-.n-section {
-  border-radius: 5px;
+.n-all {
   background-color: black;
-  display: inline-block;
+  border-radius: 5px;
+  display: list-item;
+  width: 81%;
+  height: 296px;
+  margin: 10px auto;
 }
-
-.n-maher {
+.n-all h3 {
   color: white;
-  width: 299px;
+  font-family: poppins, Arial, Helvetica, sans-serif;
+  font-size: 19px;
   text-align: center;
+  padding-top: 13px;
 }
-
-p {
+.n-firstp {
   color: white;
-  text-align: center;
+  font-family: poppins, Arial, Helvetica, sans-serif;
+  padding-left: 25px;
+  padding-top: 25px;
 }
-
-.n-button {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  align-items: center;
+.n-secondp {
+  color: white;
+  padding-left: 25px;
 }
-
+.n-firstbutton img {
+  width: 35px;
+}
 .n-firstbutton {
-  background-color: #fff;
+  display: flex;
+  height: 44px;
+  background-color: white;
+  width: 174px;
   border: none;
-  width: 156px;
-  height: 31px;
+  border-radius: 5px;
+  font-weight: bold;
 }
-
+.n-signin {
+  padding-top: 15px;
+}
 .n-secondbutton {
-  width: 154px;
-  height: 36px;
-  background: rgb(251, 123, 48);
+  width: 163px;
+  height: 49px;
+  color: white;
+  border-radius: 5px;
+  margin-top: 7px;
   background: linear-gradient(
     90deg,
     rgba(251, 123, 48, 1) 0%,
@@ -111,15 +117,71 @@ p {
   );
   margin: 5px 0px;
   border: none;
+  font-weight: bold;
+}
+.n-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
 }
 
-.n-svg {
-  width: 14px;
-  vertical-align: middle;
-}
+/* START MEDIAQUERRY */
 
-.n-lastillustration {
-  display: none;
+@media (min-width: 1175px) {
+  .n-illustration {
+    display: flex;
+    position: absolute;
+    width: 570px;
+    right: 250px;
+    bottom: -47px;
+  }
+
+  .n-all {
+    width: 86%;
+    margin-top: 67px;
+    height: 248px;
+    position: relative;
+  }
+
+  .n-all h3 {
+    text-align: left;
+    padding-top: 13px;
+    padding-left: 27px;
+    font-size: XX-LARGE;
+  }
+
+  .n-firstbutton {
+    display: flex;
+    height: 44px;
+    background-color: white;
+    width: 174px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-left: 26px;
+  }
+
+  .n-secondbutton {
+    width: 163px;
+    height: 49px;
+    color: white;
+    border-radius: 5px;
+    margin-top: -4px;
+    background: linear-gradient(
+      90deg,
+      rgba(251, 123, 48, 1) 0%,
+      rgba(168, 49, 165, 1) 100%
+    );
+    border: none;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 5px;
+  }
+
+  .n-buttons {
+    flex-direction: row;
+  }
 }
 
 /* css done for noureddine  */
