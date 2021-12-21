@@ -244,6 +244,38 @@ footer {
   background-color: black;
 }
 
+@media only screen and (min-width: 800px) {
+  .w-droit {
+    display: flex;
+  }
+  .w-gauche {
+    display: flex;
+  }
+  .w-droit-bas,
+  .w-gauche-bas {
+    margin-top: 0px;
+  }
+  hr {
+    display: none;
+  }
+  .w-footer {
+    flex-wrap: wrap;
+
+    justify-content: END;
+  }
+  .w-para p {
+    text-align: -webkit-left;
+  }
+  .w-para {
+    text-align: -webkit-left;
+  }
+  .w-para {
+    width: 50%;
+    position: RELATIVE;
+    bottom: 170px;
+  }
+}
+
 /* end code wassim */
 
 /* elboukhari start from here */
