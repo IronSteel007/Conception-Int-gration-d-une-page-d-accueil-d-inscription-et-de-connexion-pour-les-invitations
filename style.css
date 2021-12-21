@@ -128,9 +128,9 @@
   .n-illustration {
     display: flex;
     position: absolute;
-    width: 500px;
-    right: 103px;
-    bottom: -23px;
+    width: 570px;
+    right: 250px;
+    bottom: -47px;
   }
 
   .n-all {
@@ -172,6 +172,7 @@
     border: none;
     font-weight: bold;
     margin-left: 10px;
+    margin-top: 5px;
   }
 
   .n-buttons {
