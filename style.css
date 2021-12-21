@@ -1,520 +1,545 @@
-                        * {
-                        margin: 0;
-                        padding: 0;
-                        box-sizing: border-box;
-                    }
-                    /* ///////////////////// Loukili css ///////////////// */
-                    /* Mobile first */
-                    
-                    .a-wrapper {
-                        padding: 3%;
-                        width: 100%;
-                        justify-content: space-around;
-                    }
-                    
-                    .a-wrapper a-group {
-                        width: 100%;
-                    }
-                    
-                    .a-group img {
-                        width: 100%;
-                    }
-                    /* tablet screen*/
-                    
-                    @media only screen and (min-width: 550px) {
-                        .a-wrapper {
-                            display: block;
-                        }
-                        .a-group {
-                            margin-left: 1%;
-                        }
-                    }
-                    /* More larger screens */
-                    
-                    @media only screen and (min-width: 620px) {
-                        .a-wrapper {
-                            display: flex;
-                            justify-content: space-around;
-                            max-width: 1640px;
-                        }
-                        @media only screen and (min-width: 620px) {
-                            .a-wrapper {
-                                display: flex;
-                                justify-content: space-around;
-                            }
-                            .a-group {
-                                margin-left: 1%;
-                            }
-                        }
-                        /* //////////////// Loukili css end ////////////////// */
-                        /* start css noureddine */
-                        .n-illustration {
-                            display: none;
-                        }
-                        .n-all {
-                            background-color: black;
-                            border-radius: 5px;
-                            display: list-item;
-                            width: 81%;
-                            height: 296px;
-                            margin: 10px auto;
-                        }
-                        .n-all h3 {
-                            color: white;
-                            font-family: poppins, Arial, Helvetica, sans-serif;
-                            font-size: 19px;
-                            text-align: center;
-                            padding-top: 13px;
-                        }
-                        .n-firstp {
-                            color: white;
-                            font-family: poppins, Arial, Helvetica, sans-serif;
-                            padding-left: 25px;
-                            padding-top: 25px;
-                        }
-                        .n-secondp {
-                            color: white;
-                            padding-left: 25px;
-                        }
-                        .n-firstbutton img {
-                            width: 35px;
-                        }
-                        .n-firstbutton {
-                            display: flex;
-                            height: 44px;
-                            background-color: white;
-                            width: 174px;
-                            border: none;
-                            border-radius: 5px;
-                            font-weight: bold;
-                        }
-                        .n-signin {
-                            padding-top: 15px;
-                        }
-                        .n-secondbutton {
-                            width: 163px;
-                            height: 49px;
-                            color: white;
-                            border-radius: 5px;
-                            margin-top: 7px;
-                            background: linear-gradient( 90deg, rgba(251, 123, 48, 1) 0%, rgba(168, 49, 160, 1) 100%, rgba(0, 0, 0, 1) 100%);
-                            margin: 5px 0px;
-                            border: none;
-                            font-weight: bold;
-                        }
-                        .n-buttons {
-                            display: flex;
-                            flex-direction: column;
-                            align-items: center;
-                            margin-top: 20px;
-                        }
-                        /* START MEDIAQUERRY */
-                        @media (min-width: 620px) {
-                            .n-illustration {
-                                display: flex;
-                                position: absolute;
-                                width: 570px;
-                                right: 250px;
-                                bottom: -47px;
-                            }
-                            .n-all {
-                                width: 86%;
-                                margin-top: 67px;
-                                height: 248px;
-                                position: relative;
-                            }
-                            .n-all h3 {
-                                text-align: left;
-                                padding-top: 13px;
-                                padding-left: 27px;
-                                font-size: XX-LARGE;
-                            }
-                            .n-firstbutton {
-                                display: flex;
-                                height: 44px;
-                                background-color: white;
-                                width: 174px;
-                                border: none;
-                                border-radius: 5px;
-                                font-weight: bold;
-                                margin-left: 26px;
-                            }
-                            .n-secondbutton {
-                                width: 163px;
-                                height: 49px;
-                                color: white;
-                                border-radius: 5px;
-                                margin-top: -4px;
-                                background: linear-gradient( 90deg, rgba(251, 123, 48, 1) 0%, rgba(168, 49, 165, 1) 100%);
-                                border: none;
-                                font-weight: bold;
-                                margin-left: 10px;
-                                margin-top: 5px;
-                            }
-                            .n-buttons {
-                                flex-direction: row;
-                            }
-                        }
-                        /* css done for noureddine  */
-                        /* Code wassim */
-                        .w-footer {
-                            display: flex;
-                            justify-content: space-evenly;
-                            margin-bottom: 40px;
-                        }
-                        .w-para {
-                            text-align: center;
-                            color: white;
-                            /*font-size: poppins;*/
-                        }
-                        h1 {
-                            font-weight: 400;
-                            margin: 10px 0;
-                            color: white;
-                        }
-                        a {
-                            text-decoration: none;
-                            color: white;
-                            font-weight: bold;
-                        }
-                        /* li§{
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* ///////////////////// Loukili css ///////////////// */
+
+
+/* Mobile first */
+
+.a-wrapper {
+    padding: 3%;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.a-wrapper a-group {
+    width: 100%;
+}
+
+.a-group img {
+    width: 100%;
+}
+
+
+/* tablet screen*/
+
+@media only screen and (min-width: 550px) {
+    .a-wrapper {
+        display: block;
+        justify-content: space-around;
+    }
+    .row-tablet {
+        display: flex;
+        row-gap: 1em;
+    }
+    .a-group {
+        margin-left: 1%;
+    }
+}
+
+
+/* More large screens */
+
+@media only screen and (min-width: 920px) {
+    .a-wrapper {
+        display: flex;
+        justify-content: space-around;
+    }
+    .a-group {
+        margin-left: 1%;
+    }
+}
+
+
+/* //////////////// Loukili css end ////////////////// */
+
+
+/* start css noureddine */
+
+.n-mmaher {
+    padding-right: 91px;
+}
+
+.n-htree {
+    color: white;
+    text-align: center;
+}
+
+.n-section {
+    border-radius: 5px;
+    background-color: black;
+    display: inline-block;
+}
+
+.n-maher {
+    color: white;
+    width: 299px;
+    text-align: center;
+}
+
+p {
+    color: white;
+    text-align: center;
+}
+
+.n-button {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.n-firstbutton {
+    background-color: #fff;
+    border: none;
+    width: 156px;
+    height: 31px;
+}
+
+.n-secondbutton {
+    width: 154px;
+    height: 36px;
+    background: rgb(251, 123, 48);
+    background: linear-gradient( 90deg, rgba(251, 123, 48, 1) 0%, rgba(168, 49, 160, 1) 100%, rgba(0, 0, 0, 1) 100%);
+    margin: 5px 0px;
+    border: none;
+}
+
+.n-svg {
+    width: 14px;
+    vertical-align: middle;
+}
+
+.n-lastillustration {
+    display: none;
+}
+
+
+/* css done for noureddine  */
+
+
+/* Code wassim */
+
+.w-footer {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+}
+
+.w-para {
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    font-weight: 400;
+    margin: 10px 0;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+
+/* li§{
       list-style: none;
   } */
-                        li {
-                            list-style: none;
-                            color: white;
-                        }
-                        .w-droit-haut {
-                            text-align: -webkit-center;
-                            margin-bottom: 40px;
-                        }
-                        .w-droit-bas {
-                            text-align: -webkit-center;
-                            margin-top: 30px;
-                        }
-                        .w-gauche-bas {
-                            text-align: -webkit-center;
-                            margin-top: 30px;
-                        }
-                        .w-gauche-haut {
-                            text-align: -webkit-center;
-                            margin-bottom: 40px;
-                        }
-                        .w-iconnn {
-                            margin-top: 50px;
-                        }
-                        footer {
-                            background-color: black;
-                        }
-                        @media only screen and (min-width: 620px) {
-                            .w-droit {
-                                display: flex;
-                            }
-                            .w-gauche {
-                                display: flex;
-                            }
-                            .w-droit-bas,
-                            .w-gauche-bas {
-                                margin-top: 0px;
-                            }
-                            hr {
-                                display: none;
-                            }
-                            .w-footer {
-                                flex-wrap: wrap;
-                                JUSTIFY-CONTENT: END;
-                            }
-                            .w-para p {
-                                TEXT-ALIGN: -webkit-left;
-                            }
-                            .w-para {
-                                TEXT-ALIGN: -webkit-left;
-                            }
-                            .w-para {
-                                WIDTH: 50%;
-                                POSITION: RELATIVE;
-                                BOTTOM: 170PX;
-                            }
-                        }
-                        /* my job start from here */
-                        .m-menu {
-                            border-radius: 30px;
-                            background-color: #fff;
-                            overflow: auto;
-                            white-space: nowrap;
-                            margin: 20px auto;
-                            width: 80%;
-                        }
-                        /* width */
-                         ::-webkit-scrollbar {
-                            width: 12px;
-                        }
-                        /* Track */
-                         ::-webkit-scrollbar-track {
-                            box-shadow: inset 0 0 0px grey;
-                            border-radius: 5px;
-                        }
-                        /* Handle */
-                         ::-webkit-scrollbar-thumb {
-                            background: #ee6f43;
-                            border-radius: 10px;
-                        }
-                        /* Handle on hover */
-                         ::-webkit-scrollbar-thumb:hover {
-                            background: #ee6f43;
-                        }
-                        .m-menu img {
-                            width: 90px;
-                            height: 30px;
-                        }
-                        .m-menu a {
-                            display: inline-block;
-                            padding: 30px;
-                        }
-                        /* .m-menu a:hover {
+
+li {
+    list-style: none;
+    color: white;
+}
+
+.w-droit-haut {
+    text-align: -webkit-center;
+    margin-bottom: 40px;
+}
+
+.w-droit-bas {
+    text-align: -webkit-center;
+    margin-top: 30px;
+}
+
+.w-gauche-bas {
+    text-align: -webkit-center;
+    margin-top: 30px;
+}
+
+.w-gauche-haut {
+    text-align: -webkit-center;
+    margin-bottom: 40px;
+}
+
+.w-iconnn {
+    margin-top: 50px;
+}
+
+footer {
+    background-color: black;
+}
+
+
+/* @media only screen and (min-width: 600px) {
+
+  hr{
+      display: none;
+  }
+  body{
+      background-color: blue;
+  }
+} */
+
+
+/* end code wassim */
+
+
+/* /////// elboukhari code start here ////////////////////*/
+
+* {
+    text-decoration: none;
+}
+
+body {
+    background: linear-gradient(#fb7b30, #a831a5);
+}
+
+
+/* my job start from here */
+
+.m-menu {
+    border-radius: 30px;
+    background-color: #fff;
+    overflow: auto;
+    white-space: nowrap;
+    margin: 20px auto;
+    width: 80%;
+}
+
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 0px grey;
+    border-radius: 5px;
+}
+
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: #ee6f43;
+    border-radius: 10px;
+}
+
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background: #ee6f43;
+}
+
+.m-menu img {
+    width: 90px;
+    height: 30px;
+}
+
+.m-menu a {
+    display: inline-block;
+    padding: 30px;
+}
+
+
+/* .m-menu a:hover {
   background-color: rgb(255, 0, 0);
 } */
-                        .m-getcash {
-                            display: flex;
-                            justify-content: space-between;
-                            justify-content: center;
-                        }
-                        .m-getcash img {
-                            width: 30%;
-                            display: none;
-                            /*will tchange in media */
-                        }
-                        .m-getmony {
-                            border-radius: 10px;
-                            background-color: #ff7790;
-                            padding: 15px;
-                            width: 80%;
-                            /*will tchange in media */
-                        }
-                        .m-getmony h1 {
-                            display: flex;
-                            font-size: 30px;
-                            justify-content: center;
-                        }
-                        .m-getmony p {
-                            font-family: "Poppins", "Franklin Gothic Me", Arial;
-                        }
-                        .m-getstart {
-                            background: linear-gradient(#fb7b30, #a831a5);
-                            border: none;
-                            color: rgba(102, 89, 89, 0.973);
-                            border-radius: 5px;
-                            padding: 5px 15px 5px 20px;
-                            width: 27vw;
-                            max-width: 190px;
-                            padding: 3%;
-                        }
-                        .m-getmony button {
-                            display: block;
-                            margin-left: auto;
-                            margin-right: auto;
-                        }
-                        /* .m-getcash button  {
+
+.m-getcash {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+}
+
+.m-getcash img {
+    width: 30%;
+    display: none;
+    /*will tchange in media */
+}
+
+.m-getmony {
+    border-radius: 10px;
+    background-color: #ff7790;
+    padding: 15px;
+    width: 80%;
+    /*will tchange in media */
+}
+
+.m-getmony h1 {
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+}
+
+.m-getmony p {
+    font-family: "Poppins", "Franklin Gothic Me", Arial;
+}
+
+.m-getstart {
+    background: linear-gradient(#fb7b30, #a831a5);
+    border: none;
+    color: rgba(102, 89, 89, 0.973);
+    border-radius: 5px;
+    padding: 5px 15px 5px 20px;
+    width: 27vw;
+    max-width: 190px;
+    padding: 3%;
+}
+
+.m-getmony button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* .m-getcash button  {
 
   margin-left: 80px;
 } */
-                        @media (min-width: 620px) {
-                            body {
-                                background: none;
-                            }
-                            .m-menu {
-                                display: flex;
-                                justify-content: space-between;
-                                width: 100%;
-                            }
-                            .m-getcash img {
-                                width: 26%;
-                                display: inline-block;
-                                margin-left: 2%;
-                                margin-right: 2%;
-                            }
-                            .m-getmony {
-                                border-radius: 10px;
-                                background: none;
-                                padding: 15px;
-                                width: 30%;
-                            }
-                            /* thats what i added button position & bgd none */
-                            .m-getmony h1 {
-                                color: #111;
-                            }
-                            .m-getmony p {
-                                color: #111;
-                            }
-                            .m-grow {
-                                margin-bottom: 10%;
-                            }
-                        }
-                        /* elboukhari job is done  */
-                        /* yahya css header */
-                        header {
-                            display: flex;
-                            flex-direction: column;
-                        }
-                        .y_headerdiv {
-                            display: flex;
-                            justify-content: space-between;
-                            margin: 20px;
-                        }
-                        .y_log {
-                            display: flex;
-                            justify-content: flex-end;
-                            margin-top: 20px;
-                        }
-                        .y_div_Referral {
-                            width: 80%;
-                            text-align: -webkit-center;
-                            background-color: black;
-                            align-self: center;
-                            padding: 12px;
-                        }
-                        .y_reflef_h3 {
-                            color: white;
-                            margin: 18px;
-                        }
-                        .y_reflef_p {
-                            color: white;
-                            margin: 18px;
-                        }
-                        .y_imag {
-                            display: none;
-                        }
-                        .y_button {
-                            display: flex;
-                            justify-content: center;
-                        }
-                        .y_but {
-                            width: 200px;
-                            height: 43px;
-                            background: linear-gradient( 90deg, rgba(251, 123, 48, 1) 0%, rgba(168, 49, 160, 1) 100%, rgba(0, 0, 0, 1) 100%);
-                            margin-left: 15px;
-                            border: none;
-                        }
-                        .y_div_free {
-                            display: flex;
-                            justify-content: center;
-                        }
-                        .y_promocode {
-                            display: none;
-                        }
-                        .y_nav1 {
-                            display: none;
-                        }
-                        .y_left {
-                            display: none;
-                        }
-                        .y_login_btn {
-                            margin: auto;
-                            height: 30px;
-                            background: rgba(251, 123, 48, 1);
-                        }
-                        .y_signup_btn {
-                            height: 30px;
-                            margin: auto;
-                            color: rgb(255, 255, 255);
-                            background: black;
-                        }
-                        @media screen and (min-width:640px) {
-                            .y_styles_hamburger__W6Z5g {
-                                display: none;
-                                background-color: whitesmoke;
-                            }
-                            .y_nav1 {
-                                display: flex;
-                            }
-                            .y_log {
-                                display: flex;
-                                justify-content: flex-end;
-                            }
-                            .y_left {
-                                display: flex
-                            }
-                            .y_input {
-                                margin: auto;
-                            }
-                            .y_nav {
-                                margin: 20px;
-                            }
-                            .y_nav1_li {
-                                display: flex;
-                                justify-content: space-between;
-                                margin: 20px;
-                            }
-                            .y_li_inv {
-                                color: rgb(0, 0, 0);
-                            }
-                            .y_div_Referral {
-                                width: 88%;
-                                text-align: left;
-                                background-color: black;
-                                display: flex;
-                                flex-direction: column;
-                                padding-top: 37px;
-                                padding-bottom: 80px;
-                                position: relative;
-                                margin-bottom: 84px;
-                            }
-                            .y_div_free {
-                                display: flex;
-                                justify-content: space-between;
-                            }
-                            .y_promocode {
-                                display: flex;
-                            }
-                            .y_imag {
-                                display: grid;
-                                position: absolute;
-                                bottom: -76px;
-                                right: 4px;
-                                width: 451px;
-                                height: 362px;
-                            }
-                            .y_reflef_p {
-                                color: white;
-                                display: flex;
-                                flex-direction: column;
-                                align-items: baseline;
-                            }
-                            .y_conbla {
-                                display: flex;
-                            }
-                            .y_log {
-                                width: 100px;
-                                display: flex;
-                                justify-content: flex-end;
-                                margin: 30px;
-                            }
-                            .y_login {
-                                margin: auto;
-                            }
-                            .y_login_btn {
-                                margin: auto;
-                                height: 30px;
-                                background: white;
-                            }
-                            .y_signup {
-                                margin: auto;
-                            }
-                            .y_signup_btn {
-                                height: 30px;
-                                margin: auto;
-                                color: rgb(255, 255, 255);
-                                background: black;
-                            }
-                            #text {
-                                border: none;
-                                font-size: 13px;
-                                font-weight: bold;
-                            }
-                            #texte {
-                                border: none;
-                                font-size: 13px;
-                                font-weight: bold;
-                            }
-                        }
-                        /* yahya css header */
+
+@media (min-width: 800px) {
+    body {
+        background: none;
+    }
+    .m-menu {
+        display: flex;
+        justify-content: center;
+    }
+    .m-getcash img {
+        width: 26%;
+        display: inline-block;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    .m-getmony {
+        border-radius: 10px;
+        background: none;
+        padding: 15px;
+        width: 30%;
+    }
+    /* thats what i added button position & bgd none */
+    .m-getmony h1 {
+        color: #111;
+    }
+    .m-getmony p {
+        color: #111;
+    }
+    .m-grow {
+        margin-bottom: 10%;
+    }
+}
+
+
+/* elboukhari job is done  */
+
+
+/* yahya css header */
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+.y_headerdiv {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.y_log {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.y_div_Referral {
+    width: 80%;
+    text-align: -webkit-center;
+    background-color: black;
+    align-self: center;
+    padding: 12px;
+}
+
+.y_reflef_h3 {
+    color: white;
+    margin: 18px;
+}
+
+.y_reflef_p {
+    color: white;
+    margin: 18px;
+}
+
+.y_imag {
+    display: none;
+}
+
+.y_button {
+    display: flex;
+    justify-content: center;
+}
+
+.y_but {
+    width: 200px;
+    height: 43px;
+    background: linear-gradient( 90deg, rgba(251, 123, 48, 1) 0%, rgba(168, 49, 160, 1) 100%, rgba(0, 0, 0, 1) 100%);
+    margin-left: 15px;
+    border: none;
+}
+
+.y_div_free {
+    display: flex;
+    justify-content: center;
+}
+
+.y_promocode {
+    display: none;
+}
+
+.y_nav1 {
+    display: none;
+}
+
+.y_left {
+    display: none;
+}
+
+.y_login_btn {
+    margin: auto;
+    height: 30px;
+    background: rgba(251, 123, 48, 1);
+}
+
+.y_signup_btn {
+    height: 30px;
+    margin: auto;
+    color: rgb(255, 255, 255);
+    background: black;
+}
+
+@media screen and (min-width: 1140px) {
+    .y_styles_hamburger__W6Z5g {
+        display: none;
+        background-color: whitesmoke;
+    }
+    .y_nav1 {
+        display: flex;
+    }
+    .y_log {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .y_left {
+        display: flex
+    }
+    .y_input {
+        margin: auto;
+    }
+    .y_nav {
+        margin: 20px;
+    }
+    .y_nav1_li {
+        display: flex;
+        justify-content: space-between;
+        margin: 20px;
+    }
+    .y_li_inv {
+        color: rgb(0, 0, 0);
+    }
+    .y_div_Referral {
+        width: 88%;
+        text-align: left;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        padding-top: 37px;
+        padding-bottom: 80px;
+        position: relative;
+        margin-bottom: 124px;
+        position: relative;
+        margin-bottom: 84px;
+    }
+    .y_div_free {
+        display: flex;
+        justify-content: space-between;
+    }
+    .y_promocode {
+        display: flex;
+    }
+    .y_imag {
+        display: grid;
+        position: absolute;
+        bottom: -76px;
+        right: 4px;
+        width: 451px;
+        height: 362px;
+    }
+    .y_reflef_p {
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+    }
+    .y_conbla {
+        display: flex;
+    }
+    .y_log {
+        width: 100px;
+        display: flex;
+        justify-content: flex-end;
+        margin: 30px;
+    }
+    .y_login {
+        margin: auto;
+    }
+    .y_login_btn {
+        margin: auto;
+        height: 30px;
+        background: white;
+    }
+    .y_signup {
+        margin: auto;
+    }
+    .y_signup_btn {
+        height: 30px;
+        margin: auto;
+        color: rgb(255, 255, 255);
+        background: black;
+    }
+    #text {
+        border: none;
+        font-size: 13px;
+        font-weight: bold;
+    }
+    #texte {
+        border: none;
+        font-size: 13px;
+        font-weight: bold;
+    }
+}
+
+
+/* yahya css header */
