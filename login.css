@@ -61,6 +61,7 @@ body {
   height: 3em;
   font-size: 20px;
   color: white;
+  border: none;
 }
 
 .a-signup p {
@@ -76,12 +77,17 @@ body {
   text-decoration: none;
 }
 
-@media (min-width: 1080px) {
+@media (min-width: 920px) {
   .a-back-svg {
     display: none;
   }
   .a-anim-svg {
-    display: block;
+    display: initial;
+    width: 50%;
+  }
+
+  .a-anim-svg img {
+    width: 100%;
   }
   .a-intro {
     display: block;
