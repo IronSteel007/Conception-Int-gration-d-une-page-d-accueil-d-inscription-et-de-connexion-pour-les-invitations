@@ -27,7 +27,7 @@
 
 /* Larger screen */
 
-@media only screen and (min-width: 550px) {
+@media only screen and (min-width: 1140px) {
     .a-wrapper {
         display: flex;
         justify-content: space-around;
@@ -303,7 +303,7 @@ body {
   margin-left: 80px;
 } */
 
-@media (min-width: 800px) {
+@media (min-width: 1140px) {
     body {
         background: none;
     }
@@ -423,7 +423,7 @@ header {
     background: black;
 }
 
-@media screen and (min-width: 650px) {
+@media screen and (min-width: 1140px) {
     .y_styles_hamburger__W6Z5g {
         display: none;
         background-color: whitesmoke;
