@@ -22,13 +22,30 @@
   width: 100%;
 }
 
-/* Larger screen */
+/* tablet screen*/
 
 @media only screen and (min-width: 550px) {
   .a-wrapper {
+    display: block;
+  }
+
+  .row-tablet {
+    display: flex;
+    row-gap: 1em;
+  }
+
+  .a-group {
+    margin-left: 1%;
+  }
+}
+/* More larger screens */
+@media only screen and (min-width: 920px) {
+  .a-wrapper {
     display: flex;
     justify-content: space-around;
+    max-width: 1640px;
   }
+
   .a-group {
     margin-left: 1%;
   }
@@ -38,50 +55,56 @@
 
 /* start css noureddine */
 
-.n-mmaher {
-  padding-right: 91px;
+.n-illustration {
+  display: none;
 }
 
-.n-htree {
-  color: white;
-  text-align: center;
-}
-
-.n-section {
-  border-radius: 5px;
+.n-all {
   background-color: black;
-  display: inline-block;
+  border-radius: 5px;
+  display: list-item;
+  width: 81%;
+  height: 296px;
+  margin: 10px auto;
 }
-
-.n-maher {
+.n-all h3 {
   color: white;
-  width: 299px;
+  font-family: poppins, Arial, Helvetica, sans-serif;
+  font-size: 19px;
   text-align: center;
+  padding-top: 13px;
 }
-
-p {
+.n-firstp {
   color: white;
-  text-align: center;
+  font-family: poppins, Arial, Helvetica, sans-serif;
+  padding-left: 25px;
+  padding-top: 25px;
 }
-
-.n-button {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  align-items: center;
+.n-secondp {
+  color: white;
+  padding-left: 25px;
 }
-
+.n-firstbutton img {
+  width: 35px;
+}
 .n-firstbutton {
-  background-color: #fff;
+  display: flex;
+  height: 44px;
+  background-color: white;
+  width: 174px;
   border: none;
-  width: 156px;
-  height: 31px;
+  border-radius: 5px;
+  font-weight: bold;
 }
-
+.n-signin {
+  padding-top: 15px;
+}
 .n-secondbutton {
-  width: 154px;
-  height: 36px;
-  background: rgb(251, 123, 48);
+  width: 163px;
+  height: 49px;
+  color: white;
+  border-radius: 5px;
+  margin-top: 7px;
   background: linear-gradient(
     90deg,
     rgba(251, 123, 48, 1) 0%,
@@ -90,17 +113,71 @@ p {
   );
   margin: 5px 0px;
   border: none;
+  font-weight: bold;
+}
+.n-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
 }
 
-.n-svg {
-  width: 14px;
-  vertical-align: middle;
-}
+/* START MEDIAQUERRY */
 
-.n-lastillustration {
-  display: none;
-}
+@media (min-width: 1175px) {
+  .n-illustration {
+    display: flex;
+    position: absolute;
+    width: 500px;
+    right: 103px;
+    bottom: -23px;
+  }
 
+  .n-all {
+    width: 86%;
+    margin-top: 67px;
+    height: 248px;
+    position: relative;
+  }
+
+  .n-all h3 {
+    text-align: left;
+    padding-top: 13px;
+    padding-left: 27px;
+    font-size: XX-LARGE;
+  }
+
+  .n-firstbutton {
+    display: flex;
+    height: 44px;
+    background-color: white;
+    width: 174px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-left: 26px;
+  }
+
+  .n-secondbutton {
+    width: 163px;
+    height: 49px;
+    color: white;
+    border-radius: 5px;
+    margin-top: -4px;
+    background: linear-gradient(
+      90deg,
+      rgba(251, 123, 48, 1) 0%,
+      rgba(168, 49, 165, 1) 100%
+    );
+    border: none;
+    font-weight: bold;
+    margin-left: 10px;
+  }
+
+  .n-buttons {
+    flex-direction: row;
+  }
+}
 /* css done for noureddine  */
 
 /* Code wassim */
@@ -166,27 +243,39 @@ footer {
   background-color: black;
 }
 
-/* @media only screen and (min-width: 600px) {
-
-  hr{
-      display: none;
+@media only screen and (min-width: 800px) {
+.w-droit{
+    display: flex;
   }
-  body{
-      background-color: blue;
+  .w-gauche{
+    display: flex;
   }
-} */
+.w-droit-bas , .w-gauche-bas{
+  margin-top: 0px;
+}
+hr{
+  display: none;}
+  .w-footer{
+    flex-wrap: wrap;
+  
+   
+    JUSTIFY-CONTENT: END;
+  }
+  .w-para  p{
+    TEXT-ALIGN: -webkit-left;
+  }
+  .w-para{
+    TEXT-ALIGN: -webkit-left;
+  }
+  .w-para{
+    WIDTH: 50%;
+      POSITION: RELATIVE;
+      BOTTOM: 170PX;
+  
+  }
 
-/* end code wassim */
-
-/* /////// elboukhari code start here ////////////////////*/
-
-* {
-  text-decoration: none;
 }
 
-body {
-  background: linear-gradient(#fb7b30, #a831a5);
-}
 
 /* my job start from here */
 
@@ -265,6 +354,10 @@ body {
   justify-content: center;
 }
 
+.m-getmony p {
+  font-family: "Poppins", "Franklin Gothic Me", Arial;
+}
+
 .m-getstart {
   background: linear-gradient(#fb7b30, #a831a5);
   border: none;
@@ -288,6 +381,14 @@ body {
 } */
 
 @media (min-width: 800px) {
+  body {
+    background: none;
+  }
+  .m-menu {
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
+  }
   .m-getcash img {
     width: 26%;
     display: inline-block;
@@ -296,9 +397,19 @@ body {
   }
   .m-getmony {
     border-radius: 10px;
-    background-color: #ff7790;
+    background: none;
     padding: 15px;
     width: 30%;
+  }
+  /* thats what i added button position & bgd none */
+  .m-getmony h1 {
+    color: #111;
+  }
+  .m-getmony p {
+    color: #111;
+  }
+  .m-grow {
+    margin-bottom: 10%;
   }
 }
 
@@ -314,64 +425,13 @@ header {
 .y_headerdiv {
   display: flex;
   justify-content: space-between;
+  margin: 20px;
 }
 
 .y_log {
   display: flex;
   justify-content: flex-end;
   margin-top: 20px;
-}
-
-.sidebar {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: rgb(0, 0, 0);
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px;
-}
-
-.sidebar a {
-  padding: 8px 8px 8px 16px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #ffffff;
-  display: block;
-  transition: 0.3s;
-}
-
-.sidebar a:hover {
-  color: #f1f1f1;
-}
-
-.sidebar .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
-}
-
-.openbtn {
-  font-size: 20px;
-  cursor: pointer;
-  background-color: #111;
-  color: white;
-  padding: 10px 15px;
-  border: none;
-}
-
-.openbtn:hover {
-  background-color: #444;
-}
-
-#main {
-  transition: margin-left 0.5s;
-  padding: 16px;
 }
 
 .y_div_Referral {
@@ -384,10 +444,12 @@ header {
 
 .y_reflef_h3 {
   color: white;
+  margin: 18px;
 }
 
 .y_reflef_p {
   color: white;
+  margin: 18px;
 }
 
 .y_imag {
@@ -400,8 +462,8 @@ header {
 }
 
 .y_but {
-  width: 154px;
-  height: 36px;
+  width: 200px;
+  height: 43px;
   background: rgb(251, 123, 48);
   background: linear-gradient(
     90deg,
@@ -409,7 +471,7 @@ header {
     rgba(168, 49, 160, 1) 100%,
     rgba(0, 0, 0, 1) 100%
   );
-  margin: 5px 0px;
+  margin-left: 15px;
   border: none;
 }
 
@@ -422,19 +484,67 @@ header {
   display: none;
 }
 
+.y_nav1 {
+  display: none;
+}
+
+.y_left {
+  display: none;
+}
+
+.y_login_btn {
+  margin: auto;
+  height: 30px;
+  background: rgba(251, 123, 48, 1);
+}
+
+.y_signup_btn {
+  height: 30px;
+  margin: auto;
+  color: rgb(255, 255, 255);
+  background: black;
+}
 @media screen and (min-width: 650px) {
-  .sidebar {
-    padding-top: 15px;
+  .y_styles_hamburger__W6Z5g {
+    display: none;
+    background-color: whitesmoke;
   }
-  .sidebar a {
-    font-size: 18px;
+  .y_nav1 {
+    display: flex;
+  }
+  .y_log {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .y_left {
+    display: flex;
+  }
+  .y_input {
+    margin: auto;
+  }
+  .y_nav {
+    margin: 20px;
+  }
+  .y_nav1_li {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+  }
+  .y_li_inv {
+    color: rgb(0, 0, 0);
   }
   .y_div_Referral {
-    width: 100%;
+    width: 88%;
     text-align: left;
     background-color: black;
     display: flex;
     flex-direction: column;
+    padding-top: 37px;
+    padding-bottom: 80px;
+    position: relative;
+    margin-bottom: 124px;
+    position: relative;
+    margin-bottom: 84px;
   }
   .y_div_free {
     display: flex;
@@ -445,6 +555,11 @@ header {
   }
   .y_imag {
     display: grid;
+    position: absolute;
+    bottom: -76px;
+    right: 4px;
+    width: 451px;
+    height: 362px;
   }
   .y_reflef_p {
     color: white;
@@ -456,36 +571,42 @@ header {
     display: flex;
   }
 
-  .w-droit{
+  .y_log {
+    width: 100px;
     display: flex;
+    justify-content: flex-end;
+    margin: 30px;
   }
-  .w-gauche{
-    display: flex;
+  .y_login {
+    margin: auto;
   }
-.w-droit-bas , .w-gauche-bas{
-  margin-top: 0px;
-}
-hr{
-  display: none;
-}
-.w-footer{
-  flex-wrap: wrap;
+  .y_login_btn {
+    margin: auto;
+    height: 30px;
+    background: white;
+  }
+  .y_signup {
+    margin: auto;
+  }
+  .y_signup_btn {
+    height: 30px;
+    margin: auto;
+    color: rgb(255, 255, 255);
+    background: black;
+  }
+  #text {
+    border: none;
+    font-size: 13px;
+    font-weight: bold;
+  }
+  #texte {
+    border: none;
+    font-size: 13px;
+    font-weight: bold;
+  }
 
- 
-  JUSTIFY-CONTENT: END;
 }
-.w-para  p{
-  TEXT-ALIGN: -webkit-left;
-}
-.w-para{
-  TEXT-ALIGN: -webkit-left;
-}
-.w-para{
-  WIDTH: 50%;
-    POSITION: RELATIVE;
-    BOTTOM: 170PX;
 
-}
 
 
 /* yahya css header */
