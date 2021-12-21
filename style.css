@@ -192,6 +192,7 @@
 .w-para {
   text-align: center;
   color: white;
+  /*font-size: poppins;*/
 }
 
 h1 {
@@ -243,27 +244,39 @@ footer {
   background-color: black;
 }
 
-/* @media only screen and (min-width: 600px) {
-
-  hr{
-      display: none;
+@media only screen and (min-width: 800px) {
+.w-droit{
+    display: flex;
   }
-  body{
-      background-color: blue;
+  .w-gauche{
+    display: flex;
   }
-} */
+.w-droit-bas , .w-gauche-bas{
+  margin-top: 0px;
+}
+hr{
+  display: none;}
+  .w-footer{
+    flex-wrap: wrap;
+  
+   
+    JUSTIFY-CONTENT: END;
+  }
+  .w-para  p{
+    TEXT-ALIGN: -webkit-left;
+  }
+  .w-para{
+    TEXT-ALIGN: -webkit-left;
+  }
+  .w-para{
+    WIDTH: 50%;
+      POSITION: RELATIVE;
+      BOTTOM: 170PX;
+  
+  }
 
-/* end code wassim */
-
-/* /////// elboukhari code start here ////////////////////*/
-
-* {
-  text-decoration: none;
 }
 
-body {
-  background: linear-gradient(#fb7b30, #a831a5);
-}
 
 /* my job start from here */
 
@@ -558,6 +571,7 @@ header {
   .y_conbla {
     display: flex;
   }
+
   .y_log {
     width: 100px;
     display: flex;
@@ -591,6 +605,9 @@ header {
     font-size: 13px;
     font-weight: bold;
   }
+
 }
+
+
 
 /* yahya css header */
