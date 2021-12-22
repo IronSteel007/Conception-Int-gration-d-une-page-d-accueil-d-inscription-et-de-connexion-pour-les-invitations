@@ -199,19 +199,21 @@ body {
   color: white;
 }
 
-h1 {
+.w-h1 {
   font-weight: 400;
   margin: 10px 0;
   color: white;
 }
 
-a {
+ a {
+
   text-decoration: none;
   color: white;
   font-weight: bold;
 }
 
-li {
+.w-ul li {
+
   list-style: none;
   color: white;
 }
