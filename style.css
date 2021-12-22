@@ -132,11 +132,10 @@ body {
   .n-illustration {
     display: flex;
     position: absolute;
-    width: 570px;
-    right: 250px;
-    bottom: -47px;
+    width: 489px;
+    right: -5px;
+    bottom: -21px;
   }
-
   .n-all {
     width: 86%;
     margin-top: 67px;
@@ -199,19 +198,21 @@ body {
   color: white;
 }
 
-h1 {
+.w-h1 {
   font-weight: 400;
   margin: 10px 0;
   color: white;
 }
 
-a {
+ li a {
+
   text-decoration: none;
   color: white;
   font-weight: bold;
 }
 
-li {
+.w-ul li {
+
   list-style: none;
   color: white;
 }
