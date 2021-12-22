@@ -380,7 +380,8 @@ footer {
   }
   .m-menu {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    width: 100%;
   }
   .m-getcash img {
     width: 26%;
