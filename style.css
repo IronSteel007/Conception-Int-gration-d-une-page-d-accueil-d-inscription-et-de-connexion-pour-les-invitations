@@ -129,6 +129,13 @@ body {
 /* START MEDIAQUERRY */
 
 @media (min-width: 1175px) {
+  .n-illustration {
+    display: flex;
+    position: absolute;
+    width: 489px;
+    right: -5px;
+    bottom: -21px;
+  }
   .n-all {
     width: 86%;
     margin-top: 67px;
@@ -173,15 +180,6 @@ body {
 
   .n-buttons {
     flex-direction: row;
-  }
-}
-@media (min-width: 1600px) {
-  .n-illustration {
-    display: flex;
-    position: absolute;
-    width: 570px;
-    right: 250px;
-    bottom: -47px;
   }
 }
 
