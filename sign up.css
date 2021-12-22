@@ -25,7 +25,7 @@ body {
     background: linear-gradient(rgba(251, 123, 48, 0.6), rgba(168, 49, 165, 0.6));
     background-attachment: fixed;
   }
-.w {
+.w-right {
     font-family: poppins, sans-serif;
     text-align: center;
     padding: 10%;
@@ -67,10 +67,72 @@ body {
   }
   
   .w-signup p::after {
-    content: "\2003";
+    content: "\2003\2003";
   }
+  .w_input{
+    display: none;
+  }
+  .w_nav{
+    display: none;
+  }
+
   
   .w-signup a {
     color: white;
     text-decoration: none;
+  }
+@media screen and (min-width: 700px) {
+  .w_headerdiv {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+  }
+  .w-top{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+   .w_nav1 {
+      display: flex;
+    }
+    .w-down{
+      display: flex;
+    justify-content: end;
+    }
+   
+    .w_left {
+      display: flex;
+    }
+    .w_input {
+      display: flex;
+    }
+    .w_label{
+      display: flex;
+      margin: auto;
+    }
+    .w_nav {
+      margin: 20px;  
+    }
+    .w_nav a h1{
+      color: rgb(0, 0, 0);
+    }
+    .w_nav1_li {
+      display: flex;
+      justify-content: space-between;
+      margin: 20px;
+    }
+    .w_li_inv {
+      color: rgb(0, 0, 0);
+    }
+
+    .w_top_left{
+      display: flex;
+    }
+    .w-right{
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      background: aqua;
+    }
+    
   }
